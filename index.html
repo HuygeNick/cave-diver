@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"> </script>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Erik Wouters | Tempus Trimix</title>
+</head>
+
+<body>
+    <!-- Start Landing screen -->
+    <div class="loading">
+        <div class="logo">
+            <img src="marker.png" alt="">
+            <span class="text">
+                Erik Wouters
+            </span>
+            <p class="sub-text">Tempus Trimix</p>
+        </div>
+        <div class="diver">
+            <img src="./diver.png" alt="diver-image">
+        </div>
+    </div>
+    <!-- Stop Landing screen -->
+
+    <!-- Start main site -->
+    <div class="main-content">
+        <div class="container">
+
+            <!-- Start of navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="http://wouterserik.be">
+                    <img src="./marker.png" alt="">
+                    <span>Erik Wouters</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <span class="link-divider">|</span>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <span class="link-divider">|</span>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Begeleiding
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Basis Nitrox</a>
+                                <a class="dropdown-item" href="#">Advance Nitrox</a>
+                                <a class="dropdown-item" href="#">Normoxic</a>
+                                <a class="dropdown-item" href="#">Trimix</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Cavern</a>
+                                <a class="dropdown-item" href="#">Intro to Cave</a>
+                                <a class="dropdown-item" href="#">Cave Diver</a>
+                                <a class="dropdown-item" href="#">Tech Cave Diver</a>
+                                <a class="dropdown-item" href="#">Cave Tec lite</a>
+                                <a class="dropdown-item" href="#">Advanced Cave Sidemount</a>
+                                <a class="dropdown-item" href="#">Advanced Cave Multi Stage</a>
+                                <a class="dropdown-item" href="#">Advanced Cave DPV</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">CCR inspiration/evolution/vision</a>
+                                <a class="dropdown-item" href="#">CCR KISS</a>
+                                <a class="dropdown-item" href="#">CCR Diver</a>
+                                <a class="dropdown-item" href="#">CCR Normoxic</a>
+                                <a class="dropdown-item" href="#">CCR Trimix</a>
+                                <a class="dropdown-item" href="#">CCR Cave</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">DPV open water</a>
+                                <a class="dropdown-item" href="#">Blender Nx</a>
+                                <a class="dropdown-item" href="#">Blender Tx</a>
+                                <a class="dropdown-item" href="#">Self sufficient Diver</a>
+                                <a class="dropdown-item" href="#">Side mounted</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Instructeur Advanced Nitrox</a>
+                                <a class="dropdown-item" href="#">Instructeur Normoxic</a>
+                            </div>
+                        </li>
+                        <span class="link-divider">|</span>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- End of navigation-->
+
+        </div>
+
+        <!-- Start of HOME page -->
+        <main role="main" class="inner cover">
+            <div class="intro">
+                <h1>Erik Wouters</h1>
+                <p>
+                    Mijn naam is Erik Wouters. Sinds 1994 ben ik fanatiek bezig met duiken.
+                    <br>
+                </p>
+                <p>
+                    Mijn duikniche is het technisch duiken. Ik heb een bijzondere interesse in de mogelijkheden van het
+                    rebreatherduiken. Mijn specialisatie richt zich volledig op het grotduiken.
+                    Via IANTD voorzie ik op deze vlakken diverse opledingen. Regelmatig organiseer ik stages in o.a.
+                    België, Duitsland, Frankrijk, ...
+                </p>
+            </div>
+
+        </main>
+
+        <!-- End of HOME page-->
+
+        <!-- Start footer -->
+        <footer class="footer">
+            <p>
+                &copy; Erik Wouters. All rights reserved | Design by <a href="http://huygenick.be">Huyge Nick</a>
+            </p>
+        </footer>
+        <!-- Stop footer -->
+
+    </div>
+    <!-- Stop main site -->
+
+
+
+
+
+
+
+    <!-- Scripts section -->
+    <script>
+        $('.loading').bind('animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd', function (e) { $(this).remove(); });    
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
