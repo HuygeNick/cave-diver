@@ -181,6 +181,45 @@ body {
 }
 /** Stop HOME page **/
 
+/** Start ABOUT page **/
+.about {
+  background: white;
+}
+
+.about-intro {
+  display: flex;
+  padding: 5rem 0rem 3rem 0rem;
+}
+
+.about img {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
+
+.about-intro p {
+  margin-top: 3rem;
+}
+
+.about-grotduiken-inner {
+  display: flex;
+}
+
+.about-ccr {
+  margin-top: 4rem;
+  padding-bottom: 8rem;
+}
+
+.blockquote {
+  font-weight: bold;
+  background: rgba(191, 191, 193, 0.5);
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 1rem 0 2rem 0;
+}
+
+/** Stop ABOUT page **/
+
 /** Start footer **/
 
 .footer {
